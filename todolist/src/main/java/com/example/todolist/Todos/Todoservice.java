@@ -16,7 +16,7 @@ public class Todoservice {
 	private static int todocount = 0;
 
 	static {
-		todos.add(new Todo(++todocount, "python", "Learn python", LocalDate.now().plusYears(1), true));
+		todos.add(new Todo(++todocount, "c", "python", LocalDate.now().plusYears(1), true));
 		todos.add(new Todo(++todocount, "java", "Learn java", LocalDate.now().plusYears(2), false));
 		todos.add(new Todo(++todocount, "c++", "Learn c++", LocalDate.now().plusYears(3), false));
 	}
